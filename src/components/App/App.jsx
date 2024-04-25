@@ -1,10 +1,9 @@
-import {userData} from './';
+import userData from '../userData.json';
 import Profile from '../Profile/Profile';
 import './App.css';
 
 
 export default function App() {
-  console.log(userData);
   return (
     <>
       <Profile
