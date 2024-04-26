@@ -10,18 +10,18 @@ export default function Profile({ name, tag, location, image, stats }) {
         <p className={css.gray}>{location}</p>
       </div>
 
-      <ul className={css.stats}>
+      <ul className={css.list}>
         <li className={css.item}>
-          <span>Followers</span>
-          <span>{stats.followers}</span>
+          <span className={css.status_info}>Followers</span>
+          <span className={css.status_data}>{stats.followers}</span>
         </li>
         <li className={css.item}>
-          <span>Views</span>
-          <span>{stats.views}</span>
+          <span className={css.status_info}>Views</span>
+          <span className={css.status_data}>{stats.views}</span>
         </li>
         <li className={css.item}>
-          <span>Likes</span>
-          <span>{stats.likes}</span>
+          <span className={css.status_info}>Likes</span>
+          <span className={css.status_data}>{stats.likes}</span>
         </li>
       </ul>
     </div>

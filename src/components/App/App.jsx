@@ -2,7 +2,6 @@ import userData from '../userData.json';
 import Profile from '../Profile/Profile';
 import './App.css';
 
-
 export default function App() {
   return (
     <>
