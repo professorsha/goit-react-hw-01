@@ -1,0 +1,19 @@
+.table{
+    border:3px solid black;
+    width: 400px;
+    margin: 0 auto;
+    color:black;
+    font-size: 18px;
+    border-collapse: collapse; 
+
+}
+.table td{
+    border: 1px solid black;
+}
+.tableHead{
+    background-color: black;
+    color: aliceblue;
+}
+tr:nth-child(even){
+    background-color: gray;
+}
